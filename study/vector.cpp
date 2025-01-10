@@ -9,4 +9,5 @@ int main()
     cout<<v.capacity();
     v.pop_back();
     cout<<v.capacity();
+    v.clear();
 }
