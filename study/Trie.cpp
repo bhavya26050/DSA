@@ -75,7 +75,7 @@ public:
         if (root->children[index] != NULL) {
             child = root->children[index];
         } else {
-            // If absent
+            // If absent 
             return false;
         }
 
