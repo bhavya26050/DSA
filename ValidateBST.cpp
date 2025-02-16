@@ -59,7 +59,7 @@ bool isBST(Node* root , int min , int max)
     if(root -> data > min && root -> data < max)
     {
         bool left = isBST(root -> left , min , root -> data);
-        bool right = isBST(root -> left , root -> data , max);
+        bool right = isBST(root -> right , root -> data , max);
         return left && right;
     }
     else
